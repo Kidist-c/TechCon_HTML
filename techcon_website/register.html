@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Register for TechCon2024</h1>
+        <nav>
+            <a href="http://127.0.0.1:5501/index.html">Home</a>
+            <a href="http://127.0.0.1:5501/schedule.html">Schedule</a>
+            <a href="http://127.0.0.1:5501/about.html">About</a>
+            <a href="http://127.0.0.1:5501/contact.html">Contact</a>
+
+        </nav>
+    </header>
+    <main>
+        <form action ="/submit_registration" method="post">
+            <label for="username">Username</label>
+            <input type="text" name="Username" id="username" placeholder="Enter Your name">
+            <label for="password">Password</label>
+            <input type="password"name="Password" id="password" placeholder="Password">
+            <label for="email">Email</label>
+            <input type="email"name="email" id="email" placeholder="Email">
+            <label for="terms">I agree to the<a href="">Terms and Conditions</a></label>
+            <input type="checkbox" name="Terms" id="terms"placeholder="Register Now">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2024Techconwebsite.All right is reserved</p>
+        <p>The content of my page is history,mission and past speakers of Techcon.</p>
+
+    </footer>
+    
+</body>
+</html>
